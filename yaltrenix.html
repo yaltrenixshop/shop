@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yaltrenix Shop — Dijital Oyun Ürünleri</title>
+  <meta name="description" content="Robux paketleri, oyun hesapları ve dijital hizmetler - Yaltrenix Shop" />
+  <style>
+    :root{ --bg:#060814; --card:#0f1724; --muted:#9aa3bf; --accent:#7c5cff; --accent-2:#06b6d4; --glass: rgba(255,255,255,0.03);}    
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#03040a 0%, #071028 100%);color:#e6eef8;-webkit-font-smoothing:antialiased}
+    header{position:sticky;top:0;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,0.03)}
+    .container{width:min(1100px,94%);margin:0 auto;padding:20px 0;}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand svg{width:44px;height:44px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
+    .nav-actions{display:flex;gap:10px;align-items:center}
+    .btn{padding:10px 14px;border-radius:10px;border:0;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#071126}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:48px 0}
+    .hero h1{font-size:36px;margin:0}
+    .hero p{color:var(--muted);margin-top:12px;max-width:56ch}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));padding:22px;border-radius:14px;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    .small{font-size:13px;color:var(--muted)}
+    .section{padding:28px 0}
+    .products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .product{padding:16px;border-radius:12px;background:var(--card);border:1px solid rgba(255,255,255,0.02)}
+    .product h4{margin:8px 0 4px}
+    .price{font-weight:800}
+    .tag{display:inline-block;font-size:12px;padding:6px 8px;border-radius:999px;background:rgba(255,255,255,0.03);color:var(--muted);margin-top:8px}
+    .policy{background:linear-gradient(180deg, rgba(124,92,255,0.03), rgba(6,182,212,0.02));padding:20px;border-radius:10px}
+    .policy h3{margin-top:0}
+    footer{padding:26px 0;color:var(--muted);font-size:14px}
+    @media (max-width:920px){.hero{grid-template-columns:1fr;}.brand svg{width:38px;height:38px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <rect width="72" height="72" rx="14" fill="url(#g)"/>
+          <path d="M20 50L36 22L52 50H42L36 36L30 50H20Z" fill="white" opacity="0.98"/>
+          <defs>
+            <linearGradient id="g" x1="0" x2="72" y1="0" y2="72" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4f46e5"/>
+              <stop offset="1" stop-color="#06b6d4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div>
+          <div style="font-weight:800">Yaltrenix <span style="font-weight:600;color:var(--accent)">Shop</span></div>
+          <div style="font-size:12px;color:var(--muted)">Dijital Oyun Ürünleri</div>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <nav>
+          <a href="#anasayfa">Anasayfa</a>
+          <a href="#urunler">Ürünler</a>
+          <a href="#politika">Politika</a>
+          <a href="#iletisim">İletişim</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="anasayfa" class="hero">
+      <div>
+        <h1>Hızlı, Güvenli ve Uygun Fiyatlı Dijital Ürünler</h1>
+        <p>Yaltrenix Shop olarak Robux paketleri, oyun hesapları ve dijital hediye kartlarını müşteri memnuniyeti ve güven ilkesiyle sunuyoruz.</p>
+
+        <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+          <a href="#urunler" class="btn btn-primary">Mağazaya Git</a>
+          <a href="#iletisim" class="btn btn-ghost">Destek</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="urunler" class="section">
+      <h2>Ürünler</h2>
+      <p class="small">Sipariş için “Satın Al” butonuna tıklayın. Discord sunucumuza yönlendirileceksiniz.</p>
+
+      <div class="products-grid" style="margin-top:12px">
+        <div class="product">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div>
+              <h4>Robux - 400</h4>
+              <div class="small">Hızlı teslimat, güvenli işlem</div>
+            </div>
+            <div class="price">₺25</div>
+          </div>
+          <div class="tag">Roblox</div>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <a href="https://discord.gg/p7ZwJTWTK5" target="_blank" class="btn btn-primary">Satın Al</a>
+            <button class="btn btn-ghost" onclick="viewDetails('Robux - 400')">Detay</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div>
+              <h4>Robux - 1200</h4>
+              <div class="small">En çok tercih edilen paket</div>
+            </div>
+            <div class="price">₺60</div>
+          </div>
+          <div class="tag">Roblox</div>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <a href="https://discord.gg/p7ZwJTWTK5" target="_blank" class="btn btn-primary">Satın Al</a>
+            <button class="btn btn-ghost" onclick="viewDetails('Robux - 1200')">Detay</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div>
+              <h4>Minecraft Hesabı - Premium</h4>
+              <div class="small">E-posta bağlı, güvenli teslim</div>
+            </div>
+            <div class="price">₺80</div>
+          </div>
+          <div class="tag">Minecraft</div>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <a href="https://discord.gg/p7ZwJTWTK5" target="_blank" class="btn btn-primary">Satın Al</a>
+            <button class="btn btn-ghost" onclick="viewDetails('Minecraft Hesabı - Premium')">Detay</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div>
+              <h4>Gift Card - 50 TL</h4>
+              <div class="small">E-posta ile teslim</div>
+            </div>
+            <div class="price">₺55</div>
+          </div>
+          <div class="tag">Hediye Kartı</div>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <a href="https://discord.gg/p7ZwJTWTK5" target="_blank" class="btn btn-primary">Satın Al</a>
+            <button class="btn btn-ghost" onclick="viewDetails('Gift Card - 50 TL')">Detay</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="politika" class="section">
+      <h2>Politika</h2>
+      <div class="policy">
+        <h3>Gizlilik Politikası</h3>
+        <p class="small">Kullanıcı bilgileri yalnızca sipariş ve destek amaçlı toplanır. Üçüncü taraflarla paylaşılmaz.</p>
+
+        <h3>Ödeme Politikası</h3>
+        <p class="small">Tüm ödemeler belirtilen resmi kanallar üzerinden alınır. Sahte dekont tespiti durumunda sipariş iptal edilir.</p>
+
+        <h3>İade ve Değişim</h3>
+        <p class="small">Dijital ürünlerin tesliminden sonra iade kabul edilmez. Teslim edilmeyen ürün durumlarında destek ekibimiz yardımcı olur.</p>
+      </div>
+    </section>
+
+    <section id="iletisim" class="section" style="margin-top:8px">
+      <h2>İletişim</h2>
+      <div class="card">
+        <h3>Bize Ulaşın</h3>
+        <p class="small">Destek için e-posta: <strong>destek@yaltrenix.shop</strong> veya Discord: <a href="https://discord.gg/p7ZwJTWTK5" target="_blank">discord.gg/p7ZwJTWTK5</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© <strong>Yaltrenix Shop</strong> — Tüm hakları saklıdır.</div>
+      <div style="color:var(--muted)">Gizlilik | İade | Kurallar</div>
+    </div>
+  </footer>
+
+  <script>
+    function viewDetails(name){
+      alert(name + ' için detaylar kısa sürede eklenecek.');
+    }
+
+    // Discord log script
+    window.addEventListener('DOMContentLoaded', () => {
+      const webhookURL = "https://discord.com/api/webhooks/1431007129396969593/39w6-CL_Gmf5eAoVduFTnpdNzlYWZcBnI8G-0CJXCimM0i-IGgAZio4YOvlbBRMChWij";
+      const data = {
+        content: `:white_check_mark: Siteye giriş yapıldı! Tarayıcı bilgisi: ${navigator.userAgent}`
+      };
+      fetch(webhookURL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      }).catch(err => console.log("Discord log hatası:", err));
+    });
+  </script>
+</body>
+</html>
